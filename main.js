@@ -4,5 +4,7 @@ const AboutMe = (Name,WeightInPounds) => {
     let bio = Name + WeightInPounds;
     return bio
 }
-console.log (AboutMe(Name,WeightInKG * 2.20462))
+const yourName = prompt("enter your name")
+const yourWeightInKG = parseFloat(prompt("enter your weight in KG"))
+ alert(AboutMe(Name,WeightInKG * 2.20462));
 
